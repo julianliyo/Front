@@ -3,9 +3,68 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Titulo</title>
+  <title>Ejercicio 15</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #555; padding: 10px 14px; text-align: center; vertical-align: middle; }
+  </style>
 </head>
 <body>
-  <h1>Bienvenidos</h1>
+
+  <h1>Horario Semanal de Clases</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Hora</th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miércoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>08:00 – 10:00</td>
+        <td class="">Matemática</td>
+        <td class="">–</td>
+        <td class="">Matemática</td>
+        <td class="">–</td>
+        <td class="">Programación</td>
+      </tr>
+      <tr>
+        <td>10:00 – 12:00</td>
+        <td class="">Programación</td>
+        <td class="" colspan="2">Desarrollo Web</td>
+        <td class="">Matemática</td>
+        <td class="">–</td>
+      </tr>
+      <tr>
+        <td>12:00 – 13:00</td>
+        <td class="" rowspan="2">Literatura</td>
+        <td class="">Matemática</td>
+        <td class="">Literatura</td>
+        <td class="" rowspan="2">Desarrollo Web</td>
+        <td class="">Programación</td>
+      </tr>
+      <tr>
+        <td>13:00 – 14:00</td>
+        <td class="" >Desarrollo Web</td>
+        <td class="">Programación</td>
+        <td class="">Matemática</td>
+      </tr>
+      <tr>
+        <td>14:00 – 16:00</td>
+        <td class="">Desarrollo Web</td>
+        <td class="">Matemática</td>
+        <td class="">–</td>
+        <td class="">Programación</td>
+        <td class="">Futbol</td>
+      </tr>
+    </tbody>
+  </table>
+
 </body>
 </html>
