@@ -3,9 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Titulo</title>
+  <title>Ejercicio 16</title>
 </head>
 <body>
-  <h1>Bienvenidos</h1>
+
+  <h1>Formulario</h1>
+  <p>Los campos marcados con * son obligatorios</p>
+
+  <form action="#" method="post" novalidate>
+
+    <label for="usuario">Nombre de usuario *</label>
+    <input
+      type="text"
+      id="usuario"
+      name="usuario"
+      placeholder="julianliyo"
+      minlength="4"
+      maxlength="20"
+      required
+    >
+
+    <label for="email">Correo electrónico *</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      placeholder="julianliyo@gmail.com"
+      required
+    >
+
+    <label for="password">Contraseña *</label>
+    <input
+      type="password"
+      id="password"
+      name="password"
+      placeholder="Mínimo 8 caracteres"
+      minlength="8"
+      maxlength="30"
+      required
+    >
+
+    <label for="fecha_nac">Fecha de nacimiento *</label>
+    <input
+      type="date"
+      id="fecha_nac"
+      name="fecha_nac"
+      min="1900-01-01"
+      max="2010-12-31"
+      required
+    >
+
+    <button type="submit">Crear cuenta</button>
+
+  </form>
+
 </body>
 </html>
