@@ -2,10 +2,42 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Titulo</title>
+  <!-- faltaba cerrar la etiqueta <title> -->
+  <title>Ejemplo con errores</title>
 </head>
 <body>
-  <h1>Bienvenidos</h1>
+  <!-- debe cerrarse con </h1> -->
+  <h1>Bienvenidos a mi página</h1>
+
+  <!-- se cerro la etiqueta <span> y <p> -->
+  <p>Este párrafo tiene una etiqueta <span style="color: red"> sin cerrar correctamente </span>.</p>
+
+  <!-- el valor del atributo alt debe ir entre comillas -->
+  <img src="imagenes/logo.png" alt="Logo HTML" width="200">
+
+   <a href="https://www.google.com" target="blank">Ir a Google</a>
+
+  <!--
+        Los <li> deben cerrarse con </li>
+        La lista debe cerrarse con </ul>> 
+        -->
+  <ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+  </ul>
+
+  <!-- faltaba cerrar la primera fila <tr> -->
+  <table>
+    <tr>
+      <th>Nombre</th>
+      <th>Edad</th>
+    </tr>
+    <tr>
+      <td>Juan</td>
+      <td>30</td>
+    </tr>
+  </table>
+
 </body>
 </html>
