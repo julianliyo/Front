@@ -3,9 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Titulo</title>
+  <title>Ejercicio 6</title>
+  <style>
+    table { border-collapse: collapse; width: 60%; }
+    th, td { border: 1px solid #333; padding: 8px 12px; text-align: center; }
+    thead { background-color: #4fd94a; color: white; }
+  </style>
 </head>
 <body>
-  <h1>Bienvenidos</h1>
+  <table>
+    <thead>
+      <tr>
+        <th colspan="3">Ventas</th>
+      </tr>
+      <tr>
+        <th>Mes</th>
+        <th>Jugador</th>
+        <th>Monto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">Enero</td>
+        <td>Auzmendi</td>
+        <td>$1.000.000</td>
+      </tr>
+      <tr>
+        <td>Rivera</td>
+        <td>$3.500.000</td>
+      </tr>
+      <tr>
+        <td>Febrero</td>
+        <td>Galoppo</td>
+        <td>$8.000.000</td>
+      </tr>
+      <tr>
+        <td>Total</td>
+        <td colspan="2">$12.500.000</td>
+      </tr>
+    </tbody>
+  </table>
 </body>
 </html>
